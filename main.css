@@ -12,7 +12,7 @@
     align-items: center;
     justify-items: center;
     margin: 0;
-    
+    background-color: black;
   }
   
   div.pulsating_marble {
@@ -29,6 +29,8 @@
     inset 50px 0 300px #E42777,
     inset -50px 0 300px #6c27e3;
     animation: pulsate 6s linear infinite;
+    margin-top: auto;
+    margin-bottom: 100px;
   }
 
   @keyframes pulsate {
@@ -46,53 +48,11 @@
   }
   /*------------End of Pulsating Marble----------------*/
 
-
-  /*----------------Head------------------------------ */
-  div.head{
-    font-family: 'Yellowtail', cursive;
-    color: white;
-    height:inherit ;
-    width: 100%;
-    font-size: 100px;
+  h1.welcome{
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      justify-content: center;
+      font-size: 60px;
+      margin: 0;
+      height: inherit;
   }
-  /*-------------End of Head--------------------------*/
-
-  /*-------------Glowing Text-------------------------*/
-  @import url('https://fonts.googleapis.com/css?family=Warnes');
-
-  :root {
-	--animation-time: 5s;	
-  }
-
-  html, body {
-	  height: 100%;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Yellowtail', cursive
-  }
-
-  .text {
-	margin-top: 100px;
-    text-align: center;
-  }
-
-  h1 {
-	color: white;
-    letter-spacing: 8px;
-  }
-
-  .glow {
-      text-align: center;
-	text-shadow: 0 0 20px #E42777;
-	animation: 3s glow-effect infinite alternate;
-  }
-
-  @keyframes glow-effect {
-	  100% {
-		text-shadow: 0 0 10px #E42777, 0 0 15px #E42777, 0 0 20px #E42777;
-	  }
-  }
-  /*-----------------End of Glowing Text-----------------*/
