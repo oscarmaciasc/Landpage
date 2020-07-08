@@ -5,12 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="sass.scss">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> <!--Adding Bootstrap-->
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"> <!--Adding Yellowtail Font-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> <!--Adding Open Sans-->
     <title>Landpage</title>
 </head>
 <body>
-    <div class="pulsating_marble"></div>
-    <h1 class="welcome">Welcome</h1>
+    <div class="container-fluid">
+        <div class="pulsating_marble"></div>
+        <h1 class="welcome">Welcome</h1>
+    </div>
+    <div class="row" style="height: 100%;">
+        <div class="col-sm-6" class="discos"">
+            <div class="cd" class="disc"></div>
+            <div class="record black disc"></div>
+            <div class="record bronze disc"></div>
+            <div class="record silver disc"></div>
+            <div class="record gold disc"></div>
+        </div>
+        <div class="col-sm-6" style="margin: auto;">
+            <h1 class="text">Hi!</h1>
+            <h2 id="texto">Music has been a part of us since the beginning of human existence,
+                 so here is a music recommendation selected by me.</h2>
+        </div>
+    </div>
 </body>
 </html>
